@@ -58,4 +58,5 @@ public class ComplaintController {
     public List<Userregistration> GetUserById(@RequestBody Userregistration f){
         return (List<Userregistration>) dao1.FindUser(f.getId());
     }
+
 }
